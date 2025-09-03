@@ -1,0 +1,16 @@
+# Bỏ qua thư mục build của Cargo
+/target
+
+# Bỏ qua file linker script local
+memory.x
+
+# Bỏ qua file backup/IDE
+*.swp
+*.swo
+*.swm
+*.bak
+*.tmp
+
+# Bỏ qua file của VSCode/JetBrains
+.vscode/
+.idea/
