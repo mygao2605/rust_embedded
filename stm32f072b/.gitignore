@@ -1,5 +1,5 @@
 # Bỏ qua thư mục build của Cargo
-/target
+blinkled/target
 
 # Bỏ qua file linker script local
 memory.x
