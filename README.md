@@ -1,5 +1,12 @@
 1. Hướng dẫn flash 
 
+- Tạo folder .cargo và file .cargo/config.xml
+
+```
+mkdir -p .cargo
+vim .cargo/config.toml
+```
+
 - Tạo file memory.x
 
 ```
