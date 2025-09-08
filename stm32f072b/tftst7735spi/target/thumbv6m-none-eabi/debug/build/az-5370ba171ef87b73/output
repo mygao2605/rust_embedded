@@ -1,0 +1,6 @@
+$ mkdir -p "/home/hnt/Desktop/rust_embedded/stm32f072b/tftst7735spi/target/thumbv6m-none-eabi/debug/build/az-5370ba171ef87b73/out/try_track_caller"
+$ cd "/home/hnt/Desktop/rust_embedded/stm32f072b/tftst7735spi/target/thumbv6m-none-eabi/debug/build/az-5370ba171ef87b73/out/try_track_caller"
+$ printf '%s' "// try_tra"... > "/home/hnt/Desktop/rust_embedded/stm32f072b/tftst7735spi/target/thumbv6m-none-eabi/debug/build/az-5370ba171ef87b73/out/try_track_caller/try_track_caller.rs"
+$ cd "/home/hnt/Desktop/rust_embedded/stm32f072b/tftst7735spi/target/thumbv6m-none-eabi/debug/build/az-5370ba171ef87b73/out/try_track_caller" && "rustc" "try_track_caller.rs" "--emit=dep-info,metadata" >& /dev/null
+cargo:rustc-cfg=track_caller
+$ rm -r "/home/hnt/Desktop/rust_embedded/stm32f072b/tftst7735spi/target/thumbv6m-none-eabi/debug/build/az-5370ba171ef87b73/out/try_track_caller"

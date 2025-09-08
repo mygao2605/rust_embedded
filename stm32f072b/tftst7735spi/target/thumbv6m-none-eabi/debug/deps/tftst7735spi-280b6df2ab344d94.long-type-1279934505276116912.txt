@@ -1,0 +1,1 @@
+ST7735<Spi<stm32f0xx_hal::pac::SPI1, stm32f0xx_hal::gpio::gpioa::PA5<Alternate<stm32f0xx_hal::gpio::AF0>>, stm32f0xx_hal::gpio::gpioa::PA6<Alternate<stm32f0xx_hal::gpio::AF0>>, stm32f0xx_hal::gpio::gpioa::PA7<Alternate<stm32f0xx_hal::gpio::AF0>>, EightBit>, stm32f0xx_hal::gpio::gpiob::PB1<Output<PushPull>>, stm32f0xx_hal::gpio::gpiob::PB0<Output<PushPull>>>
