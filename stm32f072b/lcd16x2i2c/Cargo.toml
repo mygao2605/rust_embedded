@@ -1,0 +1,13 @@
+[package]
+name = "lcd16x2i2c"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+panic-halt = "0.2"
+stm32f0xx-hal = { version = "0.18.0", features = ["stm32f072", "rt"] }
+embedded-hal = "0.2"
+hd44780-driver = "0.4"
+

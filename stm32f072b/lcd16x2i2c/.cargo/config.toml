@@ -1,0 +1,8 @@
+[build]
+target = "thumbv6m-none-eabi"  # Correct for STM32F072 (Cortex-M0+)
+
+[target.thumbv6m-none-eabi]
+runner = "arm-none-eabi-gdb"  # Or your preferred debugger
+rustflags = [
+    "-C", "link-arg=-Tlink.x",
+]

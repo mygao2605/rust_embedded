@@ -1,0 +1,2 @@
+I2CBus<I2c<stm32f0xx_hal::pac::I2C1, stm32f0xx_hal::gpio::gpiob::PB6<Alternate<stm32f0xx_hal::gpio::AF1>>, stm32f0xx_hal::gpio::gpiob::PB7<Alternate<stm32f0xx_hal::gpio::AF1>>>>
+I2CBus<I2c<stm32f0xx_hal::pac::I2C1, stm32f0xx_hal::gpio::gpiob::PB6<Alternate<stm32f0xx_hal::gpio::AF1>>, stm32f0xx_hal::gpio::gpiob::PB7<Alternate<stm32f0xx_hal::gpio::AF1>>>>: _embedded_hal_blocking_i2c_Write

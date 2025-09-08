@@ -1,0 +1,3 @@
+cargo:rustc-link-search=/home/hnt/Desktop/rust_embedded/stm32f072b/lcd16x2i2c/target/thumbv6m-none-eabi/debug/build/stm32f0-2fdc248d036dfa92/out
+cargo:rerun-if-changed=src/stm32f0x2/device.x
+cargo:rerun-if-changed=build.rs
