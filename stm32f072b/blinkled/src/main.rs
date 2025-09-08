@@ -8,7 +8,7 @@ use stm32f0xx_hal::{pac, prelude::*};
 #[entry]
 fn main() -> ! {
     // Khai báo `dp` là mutable
-    let mut dp = pac::Peripherals::take().unwrap();
+    let mut dp = pac::Peripherals::take().unwrap(); // lay tao bo ngoai vi cua chip(peripheral access crate - PAC such as GPIO, RCC, USART, etc.)
     let mut rcc = dp.RCC.configure().freeze(&mut dp.FLASH);
 
     // Cấu hình GPIO (sử dụng CriticalSection nếu HAL yêu cầu)
